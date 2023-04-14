@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cat's Eye</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container__header">
+        <div class="container__header-brand">
+          <img src="./img/catsEyeLogo-small.png" alt="Logo da Olho de Gato" class="header-icon header-icon-small" />
+          <img src="./img/catsEyeLogo-large.png" alt="Logo da Olho de Gato" class="header-icon-large" />
+          <h1 class="header-title">Cat's Eye</h1>
+        </div>
+
+        <div class="header-search">
+          <input type="search" id="search" class="search-input" />
+          <button type="submit" id="btn-search" class="btn-filter">🔍︎</button>
+        </div>
+
+        <!--CHEST MODAL-->       
+        <input type="checkbox" id="open-chest" class="chest-btn" />
+        <label for="open-chest" class="label-chest-btn">
+        <p>Seu Baú</p>
+        <img src="./img/chest.png" alt="icone baú" class="header-icon" />
+        </label>
+        <!-- The Modal -->
+        <div id="chest-modal" class="chest__modal">
+
+        <!-- Modal content -->
+          <div class="chest__modal-content">
+            <div class="chest__modal-header">
+              <h2>Seu baú</h2>
+              <span id="close-chest" class="chest-btns"><img src="./img/close.png" alt=""></span>
+            </div>
+
+            <section class="chest__modal-items" id="chest-items"></section>
+
+            <div class="chest__modal-footer">
+              <div class="modal-footer-title">
+                <h2>Total:</h2>
+                <p id="chest-total"></p>
+              </div>
+              <a href="#" id="btn-checkout" class="chest-btns"><img src="./img/money-bag.png" alt="Comprar itens"> Comprar</a>
+            </div>
+          </div> 
+        </div>
+
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container__responsive">
+        <section class="swiper-section">
+          <div class="swiper__title">
+            <img src="./img/jester.png" alt="Jester" />
+            <h2>Novidades</h2>
+          </div>
+
+          <!-- Slider main container -->
+          <div class="swiper__container">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img
+                    src="https://raw.githubusercontent.com/matheus-hjs/CatsEyeAPI/main/resources/banner-swords.png"
+                    alt="Novidades em Espadas" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://raw.githubusercontent.com/matheus-hjs/CatsEyeAPI/main/resources/banner-bow.png"
+                    alt="Novidades em Arco e Flecha" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://raw.githubusercontent.com/matheus-hjs/CatsEyeAPI/main/resources/banner-staff.png"
+                    alt="Novidades em Cajados" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://raw.githubusercontent.com/matheus-hjs/CatsEyeAPI/main/resources/banner-spells.png"
+                    alt="Novidades em magias" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://raw.githubusercontent.com/matheus-hjs/CatsEyeAPI/main/resources/banner-socials.png"
+                    alt="Redes sociais" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="container__filters">
+          <h2 class="filter-title">
+            <img src="./img/mapMenu.png" alt="Menu" />
+            Categorias
+          </h2>
+          <div class="container__filter-btns">
+            <button class="btn-filter" id="btnFilterSword" value="sword">
+              <img src="./img/filter-warrior.png" alt="Icone guerreiro" />
+              Espadas
+            </button>
+            <button class="btn-filter" id="btnFilterBow" value="bow">
+              <img src="./img/filter-archer.png" alt="Icone arqueira" />
+              Arco
+            </button>
+            <button class="btn-filter" id="btnFilterStaff" value="staff">
+              <img src="./img/filter-mage.png" alt="Icone maga" />
+              Cajados
+            </button>
+            <button class="btn-filter" id="btnFilterSpell" value="spell">
+              <img src="./img/filter-magic.png" alt="Icone magia" />
+              Magias
+            </button>
+          </div>
+        </section>
+
+        <section class="container__shop-list" id="items"></section>
+      </div>
+    </main>
+    <footer class="container__footer">
+      <a href="#top" class="footer-logo"
+        ><img src="./img/catsEyeLogo-small.png" alt="Cat's Eye logo" class="footer-icon" />
+        <img src="./img/catsEyeLogo-large.png" alt="Logo da Olho de Gato" class="header-icon-large" />
+        <h2>Cat's Eye</h2></a>
+
+      <div class="footer-social">
+        <a href="https://github.com/matheus-hjs" class="social-link">
+          <i class="devicon-github-original"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/matheus-hjs/" class="social-link">
+          <i class="devicon-linkedin-plain"></i> LinkedIn
+        </a>
+        <a href="https://www.instagram.com/matheushenriques.dev/" class="social-link">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </footer>
+
+    <script src="./app/main.js"></script>
+    <script src="./app/filterItems.js"></script>
+    <script src="./app/chest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>

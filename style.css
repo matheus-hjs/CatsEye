@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url(./styles/header.css);
+@import url(./styles/chest.css);
+@import url(./styles/swiper.css);
+@import url(./styles/shop.css);
+@import url(./styles/footer.css);
+@import url(./styles/responsive.css);
+
+:root {
+  --fonte-principal: "Redressed", cursive;
+  --color-papyrus: #f5edd6;
+  --color-rosegold: #f07e65;
+  --color-damage: #e00000;
+  --swiper-pagination-color: var(--color-rosegold);
+  --swiper-pagination-bullet-inactive-color: var(--color-papyrus);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+main {
+  background-image: url("../img/bg-main.png");
+}

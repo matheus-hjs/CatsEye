@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/bg-card-back.jpg");
+  padding: 6px 16px 6px;
+  border-bottom: 3px outset var(--color-rosegold);
+  box-shadow: 0px 2px 3px 0px black;
+}
+
+/* Setting flex-row elements */
+.container__header,
+.header-search {
+  display: flex;
+}
+
+.container__header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icon-large {
+  display: none;
+}
+
+.header-icon {
+  width: 36px;
+  filter: drop-shadow(3px 3px 1px black);
+  transition: 0.3s;
+}
+
+.header-icon:hover {
+  filter: drop-shadow(3px 3px 1px var(--color-rosegold));
+}
+
+.header-title {
+  display: none;
+}
+
+.header-search {
+  height: 70%;
+  width: 50%;
+  max-width: 450px;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.search-input {
+  width: 90%;
+  height: 28px;
+  border-radius: 5px 0 0 5px;
+  padding: 0.1rem 1.1rem;
+  border: 2px outset var(--color-rosegold);
+}
+
+#btn-search {
+  font-size: 1rem;
+  width: fit-content;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0 5px 5px 0;
+}

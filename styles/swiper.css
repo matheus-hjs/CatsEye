@@ -1,0 +1,24 @@
+.swiper-section {
+  background-image: url("../img/bg-card-1.jpg");
+}
+
+.swiper__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-papyrus);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem;
+}
+
+.swiper__title > img {
+  width: 24px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: fit-content;
+}

@@ -1,0 +1,37 @@
+.container__footer {
+  background-image: url("../img/bg-card-back.jpg");
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 3px outset var(--color-rosegold);
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer-icon {
+  width: 86px;
+  filter: drop-shadow(3px 3px 1px black);
+  transition: 0.3s;
+}
+
+.footer-logo:hover,
+.social-link:hover {
+  filter: drop-shadow(3px 3px 1px var(--color-rosegold));
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-logo,
+.social-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color-papyrus);
+  text-shadow: 3px 3px 1px black;
+}

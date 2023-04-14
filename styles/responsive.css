@@ -1,0 +1,140 @@
+@media screen and (min-width: 768px) {
+  .container__header,
+  .swiper__container,
+  .container__shop-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .chest__modal-content {
+    width: 70%;
+    max-width: none;
+  }
+
+  .chest__modal-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container__header,
+  .swiper__container,
+  .container__shop-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container__header {
+    padding-bottom: 0.5rem;
+    align-items: flex-end;
+  }
+
+  .container__header-brand {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .header-icon-small {
+    display: none;
+  }
+
+  .header-icon-large {
+    display: block;
+    width: 100px;
+    filter: drop-shadow(3px 3px 1px var(--color-papyrus));
+  }
+
+  .header-title {
+    display: block;
+    font-size: 3rem;
+    color: var(--color-papyrus);
+    text-shadow: 2px 2px 2px var(--color-papyrus);
+  }
+  .header-search {
+    width: 40%;
+  }
+
+  .label-chest-btn p {
+    display: block;
+  }
+
+  .chest__modal-content {
+    width: 60%;
+  }
+
+  .swiper__title,
+  .filter-title {
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .swiper__title > img,
+  .filter-title > img {
+    width: 36px;
+  }
+  .container__shop-list {
+    gap: 2rem;
+  }
+  .footer-logo {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer-logo h2 {
+    font-size: 3rem;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+
+  .footer-social {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .social-link {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__header,
+  .swiper__container,
+  .container__shop-list {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .chest__modal-content {
+    width: 45%;
+  }
+
+  .swiper__title,
+  .filter-title {
+    padding-top: 1rem;
+    font-size: 3rem;
+  }
+
+  .swiper__title > img,
+  .filter-title > img {
+    width: 48px;
+  }
+
+  .btn-filter {
+    max-width: 200px;
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+  }
+
+  .btn-filter > img {
+    width: 36px;
+  }
+
+  .container__footer {
+    justify-content: space-evenly;
+  }
+}
