@@ -19,9 +19,9 @@ Neste projeto foram utilizados:
 
 
 - Botões de excluir os itens do baú removem os elementos HTML e os dados do item do LocalStorage.
-
-
-
+</br>
+Página no Github Pages e gifs do projeto no final deste README!
+</br>
 <h2>👨‍💻Tecnologias usadas</h2>
 <p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=24px; height=24px;/>HTML5</p>
 <p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width=24px; height=24px;/>CSS</p>
@@ -49,9 +49,9 @@ In this project we have:
 
 
 - Delete buttons in the chest remove both the HTML elements and the data stored in LocalStorage for their respective items.
-
-
-
+</br>
+Page on GitHub Pages and project gifs at the end of this README!
+</br>
 <h2>👨‍💻Technologies used</h2>
 <p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=24px; height=24px;/>HTML5</p>
 <p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width=24px; height=24px;/>CSS</p>
@@ -61,11 +61,17 @@ In this project we have:
 <h1>🎨Website/Videos📸💻</h1>
 <h2>GitHub Pages: https://matheus-hjs.github.io/CatsEye/ </h2>
 
+<h2>Página / Page</h2>
+<img src="https://github.com/matheus-hjs/CatsEye/blob/main/gifs/fullPage.gif?raw=true" width=300px>
 
+<h2>Responsividade / Responsiveness</h2>
+<img src="https://github.com/matheus-hjs/CatsEye/blob/main/gifs/responsive.gif?raw=true" width=300px>
 
+<h2>Filtrar & Pesquisar / Filter & Search</h2>
+<img src="https://github.com/matheus-hjs/CatsEye/blob/main/gifs/filterAndSearch.gif?raw=true" width=300px>
 
+<h2>Adicionar ao carrinho / Add to cart</h2>
+<img src="https://github.com/matheus-hjs/CatsEye/blob/main/gifs/addToCart.gif?raw=true" width=300px>
 
-
-
-
-
+<h2>Adicionar ao carrinho / Add to cart</h2>
+<img src="https://github.com/matheus-hjs/CatsEye/blob/main/gifs/removeFromCart.gif?raw=true" width=300px>
