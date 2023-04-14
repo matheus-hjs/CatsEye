@@ -1,7 +1,7 @@
-#🏪Loja "Cat's Eye"🐱
+<h1>🏪Loja "Cat's Eye"🐱</h1>
 
 
-##👨‍🏫Descrição do projeto💬
+<h2>👨‍🏫Descrição do projeto💬</h2>
 
 Este é um projeto fictício para uma loja online que vende cartas colecionáveis chamada "Cat's Eye".
 Feito com o objetivo de exercitar novos conhecimentos adquiridos de cursos e formações que concluí recentemente na plataforma Alura.
@@ -22,15 +22,17 @@ Neste projeto foram utilizados:
 
 
 
-##👨‍💻Tecnologias usadas
-![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg | width=24px)HTML5
-![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg | width=24px)CSS3
-![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg | width=24px)JavaScript
+<h2>👨‍💻Tecnologias usadas</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=24px; height=24px;/>HTML5</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width=24px; height=24px;/>CSS</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width=24px; height=24px;/> JavaScript</p>
 
+</br>
+</br>
+</br>
+<h1>🏪"Cat's Eye" Store🐱</h1>
 
-#🏪"Cat's Eye" Store🐱
-
-##👨‍🏫Project Description💬
+<h2>👨‍🏫Project Description</h2>
 
 This is a fictional project for an online shop that sells collectible cards called "Cat's Eye".
 It was done with the objective of exercising new things I have learnt from a few courses that I have concluded recently from the "Alura" platform.
@@ -50,14 +52,14 @@ In this project we have:
 
 
 
-##👨‍💻Technologies used
-![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg | width=24px)HTML5 
-![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg | width=24px)CSS3
-![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg | width=24px)JavaScript
+<h2>👨‍💻Technologies used</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=24px; height=24px;/>HTML5</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width=24px; height=24px;/>CSS</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width=24px; height=24px;/> JavaScript</p>
 
 
-#🎨Website/Videos📸💻
-##GitHub Pages: https://matheus-hjs.github.io/CatsEye/
+<h1>🎨Website/Videos📸💻</h1>
+<h2>GitHub Pages: https://matheus-hjs.github.io/CatsEye/ </h2>
 
 
 
