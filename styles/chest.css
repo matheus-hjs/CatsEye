@@ -61,7 +61,8 @@
 
 .chest-card {
   background-color: transparent;
-  width: 265px;
+  width: 80%;
+  max-width: 265px;
   height: fit-content;
   padding: 0.2rem 0.4rem;
   box-shadow: 3px 3px 3px 0 black;
