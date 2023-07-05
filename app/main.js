@@ -1,5 +1,5 @@
 let itens = [];
-const catsEyeAPI = "https://matheus-hjs.github.io/CatsEyeAPI/items.json";
+const catsEyeAPI = "https://matheus-hjs.github.io/CatsEye/items.json";
 
 //--FETCHING AND DISPLAYING ITEMS--//
 fetchItems();
