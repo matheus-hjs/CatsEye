@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Espada iniciante",
+    "description": "Uma simples espada de madeira. Nada cortante, mas com certeza deixará hematomas e farpas nos inimigos.",
+    "attack": "10",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4591/4591311.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada 'menos iniciante'",
+    "description": "Uma simples espada de aço. Está tão cega que você jura que esta deve ser uma espada somente decorativa.",
+    "attack": "15",
+    "price": "200",
+    "icon": "https://cdn-icons-png.flaticon.com/512/842/842031.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada do Aventureiro",
+    "description": "Espada de aço. Finalmente algo capaz de cortar, quem sabe agora os outros aventureiros te levem a sério.",
+    "attack": "20",
+    "price": "300",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2106/2106314.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada do Soldado",
+    "description": "Espada de aço. Parece estar subindo na vida, mas precisará de muito mais que isso se planeja finalmente deixar seus pais orgulhosos.",
+    "attack": "25",
+    "price": "400",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2457/2457005.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada do Cavaleiro",
+    "description": "Espada de aço. Parabéns por mais uma conquista, mas por enquanto só pode sonhar com matar dragões e salvar princesas.",
+    "attack": "30",
+    "price": "500",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4155/4155948.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada Templária",
+    "description": "Espada de prata. Uma espada refinada e reluzente, seria magia ou só glitter mesmo?",
+    "attack": "40",
+    "price": "750",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4330/4330760.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada Extravagante",
+    "description": "Espada de ouro. Sério isso? Ouro?... pelo menos você pode derretê-la e transformar em barras de ouro que valem mais do que dinheiro!",
+    "attack": "50",
+    "price": "1000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/8887/8887166.png",
+    "category": "sword"
+  },
+  {
+    "name": "Espada Amaldiçoada",
+    "description": "Espada de ???. Não sei com quem você fez um pacto, mas explica muito como chegou tão longe.",
+    "attack": "60",
+    "price": "1250",
+    "icon": "https://cdn-icons-png.flaticon.com/512/9954/9954140.png",
+    "category": "sword"
+  },
+  {
+    "name": "Lápis-lazúli",
+    "description": "Espada mágica. Imbuída de poder mágico, é certamente uma espada poderosa. Mas não pense que agora é capaz de usar magias, deveria ter investido mais pontos em [Inteligência] para isso.",
+    "attack": "90",
+    "price": "2000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/8381/8381966.png",
+    "category": "sword"
+  },
+  {
+    "name": "NÃO É um Sabre de Luz",
+    "description": "Espada de ???. Não sei o que isso faz aqui, com certeza um estagiário esqueceu seu item de colecionador na loja... o que é Guerra nas Esteiras?",
+    "attack": "9999",
+    "price": "999999",
+    "icon": "https://cdn-icons-png.flaticon.com/512/735/735400.png",
+    "category": "sword"
+  },
+  {
+    "name": "Arco Iniciante",
+    "description": "Arco simples. Melhor usar luvas, com certeza causaria mais dano em você mesmo do que nos alvos com tantas farpas.",
+    "attack": "10",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/9450/9450644.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco 'menos iniciante'",
+    "description": "Arco simples. Você pode melhorar o arco, mas sua mira ainda deixa a desejar.",
+    "attack": "15",
+    "price": "200",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1071/1071111.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco do Aventureiro",
+    "description": "Arco melhorado. Finalmente você pode contribuir algo em uma equipe... se acertar somente os inimigos.",
+    "attack": "20",
+    "price": "300",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2858/2858905.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco do Caçador",
+    "description": "Arco melhorado. Parece estar subindo na vida, mas precisará de muito mais que isso se planeja finalmente acertar aquela macã na cabeça do seu colega.",
+    "attack": "25",
+    "price": "400",
+    "icon": "https://cdn-icons-png.flaticon.com/512/8235/8235224.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco do Cavaleiro",
+    "description": "Arco melhorado. Parabéns por mais uma conquista, uma pena que o problema não é mais o arco...",
+    "attack": "30",
+    "price": "500",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5153/5153279.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco do Explorador",
+    "description": "Arco de madeira nobre. Um viajante com seu arco e historias para contar... mesmo que estas sejam exageradas.",
+    "attack": "40",
+    "price": "750",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5504/5504808.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco Robin Hood",
+    "description": "Arco de madeira nobre. 'Robin Hood' é a tecnica quando partimos uma flecha no alvo com outra flecha... boa sorte com isso. ",
+    "attack": "50",
+    "price": "1000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4336/4336910.png",
+    "category": "bow"
+  },
+  {
+    "name": "Arco Extravagante",
+    "description": "Arco reforçado. Apesar de sua aparência dourada, este não é feito de ouro, afinal, se fosse, não teria flexibilidade para atirar flechas.",
+    "attack": "60",
+    "price": "1250",
+    "icon": "https://cdn-icons-png.flaticon.com/512/9444/9444340.png",
+    "category": "bow"
+  },
+  {
+    "name": "Bullseye",
+    "description": "Arco reforçado. Uma arma extremamente poderosa, faz você se perguntar se teria pontos de [força] o suficiente para puxar a corda.",
+    "attack": "90",
+    "price": "2000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/9417/9417853.png",
+    "category": "bow"
+  },
+  {
+    "name": "Cupido, é você?",
+    "description": "Arco mágico(???). As pessoas podem até encontrar o amor, mas com certeza não será com uma flecha no coração.",
+    "attack": "9999",
+    "price": "999999",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1418/1418863.png",
+    "category": "bow"
+  },
+  {
+    "name": "Cajado iniciante",
+    "description": "Cajado simples. Apesar de sua capacidade mágica latente, este cajado só serve para golpear inimigos em suas mãos",
+    "attack": "10",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4431/4431252.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado 'menos iniciante'",
+    "description": "Cajado simples. Após muito treinamento, você finalmente consegue fazer umas faísquinhas, meus parabéns.",
+    "attack": "15",
+    "price": "200",
+    "icon": "https://cdn-icons-png.flaticon.com/512/7926/7926162.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado do Aprendiz",
+    "description": "Cajado reforçado. Finalmente está apto à conjurar magias básicas... bem básicas.",
+    "attack": "20",
+    "price": "300",
+    "icon": "https://cdn-icons-png.flaticon.com/512/7057/7057904.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado do Mago",
+    "description": "Cajado reforçado. Magia e chamas finalmente fluem de suas mãos... e vão direto para o tapete do seu mestre.",
+    "attack": "25",
+    "price": "400",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4883/4883727.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado do Feiticeiro",
+    "description": "Cajado reforçado. Os elementos estão ao seu dispor... mas não parecem ser os seus maiores fãs.",
+    "attack": "30",
+    "price": "500",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2691/2691186.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado Encantador",
+    "description": "Cajado superior. Até que você não é um caso perdido nessa coisa de magia...",
+    "attack": "40",
+    "price": "750",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4334/4334288.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado Lápis-lazúli",
+    "description": "Cajado de cristal. Você impressionou todos os seus colegas magos... mas sua família ainda esperava que você fosse médico.",
+    "attack": "50",
+    "price": "1000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/6590/6590441.png",
+    "category": "staff"
+  },
+  {
+    "name": "Cajado Florestal",
+    "description": "Cajado elemental. Os espíritos da floresta lhe concedem seu poder, faça bom uso.",
+    "attack": "60",
+    "price": "1250",
+    "icon": "https://cdn-icons-png.flaticon.com/512/8381/8381960.png",
+    "category": "staff"
+  },
+  {
+    "name": "Ametista",
+    "description": "Cajado elemental. Você finalmente conquistou todos os elementos, Uma pena que ter ficado tanto tempo estudando em sua torre acabou com o seu bronzeado.",
+    "attack": "90",
+    "price": "2000",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4330/4330620.png",
+    "category": "staff"
+  },
+  {
+    "name": "Magical✰Girl",
+    "description": "Cajado especial. Seu sonho de se tornar uma garota mágica igual aos animes que você assistia está à um cajado de distância.",
+    "attack": "9999",
+    "price": "999999",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3830/3830110.png",
+    "category": "staff"
+  },
+  {
+    "name": "Bola de Fogo",
+    "description": "Lança uma bola de fogo ao alvo, explodindo com o impacto.",
+    "attack": "150% do ATQ",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/7734/7734417.png",
+    "category": "spell"
+  },
+  {
+    "name": "Invocação: Espírito d'água",
+    "description": "Invoca um espírito d'agua que ataca os inimigos e cura aliados",
+    "attack": "70% do ATQ do invocador",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4726/4726266.png",
+    "category": "spell"
+  },
+  {
+    "name": "Ventos Favoráveis",
+    "description": "Cria uma aura de vento por 10s que aumenta a velocidade de movimento causa dano aos inimigos a cada 1s",
+    "attack": "15% do ATQ/s",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5545/5545895.png",
+    "category": "spell"
+  },
+  {
+    "name": "Circuito Fechado",
+    "description": "Lança uma descarga elétrica que salta entre os alvos um máximo de 4 vezes",
+    "attack": "80% do ATQ",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1025/1025975.png",
+    "category": "spell"
+  },
+  {
+    "name": "Cipó Venenoso",
+    "description": "Chicoteia inimigos à frente, causando dano e aplicando [veneno].",
+    "attack": "50% do ATQ + Veneno: 20% do ATQ/s por 5s",
+    "price": "100",
+    "icon": "https://cdn-icons-png.flaticon.com/512/7925/7925993.png",
+    "category": "spell"
+  },
+  {
+    "name": "Invocação: Familiar",
+    "description": "Invoca um gato ao seu lado, a presença do bichano [atordoa] os inimigos por 5s",
+    "attack": "--",
+    "price": "200",
+    "icon": "https://cdn-icons-png.flaticon.com/512/8381/8381981.png",
+    "category": "spell"
+  },
+  {
+    "name": "Benção",
+    "description": "Cura um aliado e remove efeitos de enfraquecimento e aflições.",
+    "attack": "Cura: 120% do ATQ",
+    "price": "150",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4241/4241935.png",
+    "category": "spell"
+  },
+  {
+    "name": "Necromancia: Esqueleto Guerreiro",
+    "description": "Chama um esqueleto de volta ao mundo dos vivos, seus ataques causam [sangramento].",
+    "attack": "60% do ATQ do invocador + Sangramento: 10% do ATQ/s por 5s",
+    "price": "150",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4333/4333647.png",
+    "category": "spell"
+  },
+  {
+    "name": "Divinação",
+    "description": "Puxa uma carta aleatória, invocando uma das seguintes magias: Bola de fogo, Ventos Favoráveis, Circuito Fechado, Cipó Venenoso ou Benção",
+    "attack": "80% do ATQ das magias originais.",
+    "price": "150",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1408/1408429.png",
+    "category": "spell"
+  },
+  {
+    "name": "Chave Mestra",
+    "description": "Conjura uma chave capaz de abrir qualquer cadeado.",
+    "attack": "--",
+    "price": "300",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4230/4230560.png",
+    "category": "spell"
+  }
+]
